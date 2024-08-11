@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    background-color: grey;
+    
+    position: absolute;
+    top: 20px;
+
+
+    left: 30%;
+    width: 60%;
+    height: 4rem;
+   z-index: 1;
+    align-items: center;
+    border-radius: 0 0 .3rem .3rem;
+
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+}
+.navbar ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px 10px 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-logo{
+    margin-right: 25%;
+}
+.navbar .navbar-logo span{
+    color: rgb(197, 191, 201);
+    font-size: x-large;
+    margin-left: 5%;
+    color: rgb(245, 245, 15);
+    font-family: cursive;
+}
